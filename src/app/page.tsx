@@ -9,6 +9,7 @@ import {
 	Twitter,
 } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
 	const movies = [
@@ -42,12 +43,12 @@ export default function Home() {
 						<h1 className="text-lg font-bold">AshikaNews</h1>
 					</div>
 					<div className="flex items-center space-x-4">
-						<a href="/login" className="hover:text-red-400">
+						<Link href="/login" className="hover:text-red-400">
 							लगइन
-						</a>
-						<a href="/register" className="hover:text-red-400">
+						</Link>
+						<Link href="/register" className="hover:text-red-400">
 							दर्ता
-						</a>
+						</Link>
 						<button
 							type="button"
 							className="bg-red-600 hover:bg-red-700 px-4 py-1 rounded"
@@ -63,27 +64,27 @@ export default function Home() {
 				<div className="max-w-7xl mx-auto flex justify-between items-center px-4">
 					<div className="text-2xl font-bold">AshikaNews</div>
 					<div className="flex items-center space-x-8">
-						<a href="/" className="hover:text-red-400">
+						<Link href="/" className="hover:text-red-400">
 							गृह
-						</a>
-						<a href="/business" className="hover:text-red-400">
+						</Link>
+						<Link href="/business" className="hover:text-red-400">
 							व्यापार
-						</a>
-						<a href="/politics" className="hover:text-red-400">
+						</Link>
+						<Link href="/politics" className="hover:text-red-400">
 							राजनीति
-						</a>
-						<a href="/sports" className="hover:text-red-400">
+						</Link>
+						<Link href="/sports" className="hover:text-red-400">
 							खेलकुद
-						</a>
-						<a href="/entertainment" className="hover:text-red-400">
+						</Link>
+						<Link href="/entertainment" className="hover:text-red-400">
 							मनोरञ्जन
-						</a>
-						<a href="/health" className="hover:text-red-400">
+						</Link>
+						<Link href="/health" className="hover:text-red-400">
 							स्वास्थ्य
-						</a>
-						<a href="/more" className="hover:text-red-400">
+						</Link>
+						<Link href="/more" className="hover:text-red-400">
 							अधिक
-						</a>
+						</Link>
 					</div>
 					<Search className="w-6 h-6 cursor-pointer hover:text-red-400" />
 				</div>
@@ -564,24 +565,24 @@ export default function Home() {
 							<h4 className="font-semibold text-gray-800 mb-4">समाचार</h4>
 							<ul className="space-y-2 text-gray-600">
 								<li>
-									<a href="/" className="hover:text-red-600">
+									<Link href="/" className="hover:text-red-600">
 										गृह
-									</a>
+									</Link>
 								</li>
 								<li>
-									<a href="/business" className="hover:text-red-600">
+									<Link href="/business" className="hover:text-red-600">
 										व्यापार
-									</a>
+									</Link>
 								</li>
 								<li>
-									<a href="/politics" className="hover:text-red-600">
+									<Link href="/politics" className="hover:text-red-600">
 										राजनीति
-									</a>
+									</Link>
 								</li>
 								<li>
-									<a href="/sports" className="hover:text-red-600">
+									<Link href="/sports" className="hover:text-red-600">
 										खेलकुद
-									</a>
+									</Link>
 								</li>
 							</ul>
 						</div>
@@ -590,24 +591,24 @@ export default function Home() {
 							<h4 className="font-semibold text-gray-800 mb-4">विषय</h4>
 							<ul className="space-y-2 text-gray-600">
 								<li>
-									<a href="/entertainment" className="hover:text-red-600">
+									<Link href="/entertainment" className="hover:text-red-600">
 										मनोरञ्जन
-									</a>
+									</Link>
 								</li>
 								<li>
-									<a href="/health" className="hover:text-red-600">
+									<Link href="/health" className="hover:text-red-600">
 										स्वास्थ्य
-									</a>
+									</Link>
 								</li>
 								<li>
-									<a href="/finance" className="hover:text-red-600">
+									<Link href="/finance" className="hover:text-red-600">
 										वित्त
-									</a>
+									</Link>
 								</li>
 								<li>
-									<a href="/travel" className="hover:text-red-600">
+									<Link href="/travel" className="hover:text-red-600">
 										यात्रा
-									</a>
+									</Link>
 								</li>
 							</ul>
 						</div>
@@ -616,24 +617,24 @@ export default function Home() {
 							<h4 className="font-semibold text-gray-800 mb-4">जीवन</h4>
 							<ul className="space-y-2 text-gray-600">
 								<li>
-									<a href="/food" className="hover:text-red-600">
+									<Link href="/food" className="hover:text-red-600">
 										खाना
-									</a>
+									</Link>
 								</li>
 								<li>
-									<a href="/fashion" className="hover:text-red-600">
+									<Link href="/fashion" className="hover:text-red-600">
 										फैशन
-									</a>
+									</Link>
 								</li>
 								<li>
-									<a href="/readers" className="hover:text-red-600">
+									<Link href="/readers" className="hover:text-red-600">
 										पाठक
-									</a>
+									</Link>
 								</li>
 								<li>
-									<a href="/about" className="hover:text-red-600">
+									<Link href="/about" className="hover:text-red-600">
 										हाम्रो बारेमा
-									</a>
+									</Link>
 								</li>
 							</ul>
 						</div>
@@ -642,19 +643,19 @@ export default function Home() {
 							<h4 className="font-semibold text-gray-800 mb-4">अन्य</h4>
 							<ul className="space-y-2 text-gray-600">
 								<li>
-									<a href="/contact" className="hover:text-red-600">
+									<Link href="/contact" className="hover:text-red-600">
 										सम्पर्क
-									</a>
+									</Link>
 								</li>
 								<li>
-									<a href="/privacy" className="hover:text-red-600">
+									<Link href="/privacy" className="hover:text-red-600">
 										गोपनीयता नीति
-									</a>
+									</Link>
 								</li>
 								<li>
-									<a href="/terms" className="hover:text-red-600">
+									<Link href="/terms" className="hover:text-red-600">
 										सर्तहरू र सर्तहरू
-									</a>
+									</Link>
 								</li>
 							</ul>
 						</div>
